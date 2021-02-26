@@ -1,0 +1,48 @@
+.large-hero {
+  position: relative;
+
+  &__text-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__title {
+    font-weight: 300;
+    color: $mainBlue;
+    font-size: 4.8rem;
+    margin: 0;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    color: $mainBlue;
+    font-size: 2.9rem;
+    margin: 0;
+  }
+
+  &__description {
+    color: #FFF;
+    font-size: 1.875rem; 
+    font-weight: 100;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}  /*  End of large-hero */
+/*  1.5 x 16 = 24px 
+    As a good web designer we want to honor the user font size preferences.
+    If we use rem for font-size, margin and paddings. Our entire web design
+    will scale accordingly to user font size preferences. Where as, if we use
+    px for everything, our design will be set in stung.
+
+
+*/
+
+
+
+
