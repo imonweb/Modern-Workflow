@@ -21,8 +21,7 @@ $mainBlue: #2f5572;
 
   &__btn-container {
     @mixin atMedium {
-      /* float: right; */
-      order: 2;
+      float: right;
     }
     
   }
@@ -127,8 +126,6 @@ $mainBlue: #2f5572;
     text-align: center;
 
     @mixin atMedium {
-      display: flex;
-      justify-content: flex-end;
       opacity: 1;
       z-index: 1;
       padding-top: 0;

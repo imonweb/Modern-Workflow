@@ -16,6 +16,7 @@
   }
 }
 
+/*  If not using floats, can delete this (Flexbox) */
 @define-mixin clearfix {
   &::after {
     content: "";
